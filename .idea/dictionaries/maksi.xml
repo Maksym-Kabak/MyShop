@@ -2,6 +2,8 @@
   <dictionary name="maksi">
     <words>
       <w>axios</w>
+      <w>bcrypt</w>
+      <w>dotenv</w>
     </words>
   </dictionary>
 </component>

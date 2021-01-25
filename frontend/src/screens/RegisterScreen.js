@@ -48,7 +48,7 @@ const RegisterScreen = ({ location, history }) => {
                 <Form.Control
                     type='name'
                     pleceholder='Enter name'
-                    value={ email }
+                    value={ name }
                     onChange={ (event) => setName(event.target.value) }
                 >
                 </Form.Control>
