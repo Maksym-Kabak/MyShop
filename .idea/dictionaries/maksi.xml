@@ -4,6 +4,7 @@
       <w>axios</w>
       <w>bcrypt</w>
       <w>dotenv</w>
+      <w>multer</w>
     </words>
   </dictionary>
 </component>

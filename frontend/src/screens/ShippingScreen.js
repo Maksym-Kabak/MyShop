@@ -21,7 +21,7 @@ const ShippingScreen = ({ history }) => {
         event.preventDefault();
         dispatch(saveShippingAddress({ address, city, postalCode, country }));
         history.push('/payment');
-    }
+    };
 
     return <FormContainer>
         <CheckoutSteps step1 step2/>
@@ -77,8 +77,8 @@ const ShippingScreen = ({ history }) => {
 
             <Button type='submit' variant='primary'>Continue</Button>
         </Form>
-    </FormContainer>
+    </FormContainer>;
 
-}
+};
 
 export default ShippingScreen;

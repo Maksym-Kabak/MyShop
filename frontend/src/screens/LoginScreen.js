@@ -20,14 +20,14 @@ const LoginScreen = ({ location, history }) => {
 
     useEffect(() => {
         if (userInfo) {
-            history.push(redirect)
+            history.push(redirect);
         }
-    }, [history, userInfo, redirect])
+    }, [history, userInfo, redirect]);
 
     const submitHandler = (event) => {
         event.preventDefault();
-        dispatch(login(email, password))
-    }
+        dispatch(login(email, password));
+    };
 
 
     return <FormContainer>
@@ -64,7 +64,7 @@ const LoginScreen = ({ location, history }) => {
                 New Customer? <Link to={ redirect ? `/register?redirect=${ redirect }` : '/register' }>Register</Link>
             </Col>
         </Row>
-    </FormContainer>
-}
+    </FormContainer>;
+};
 
 export default LoginScreen;
