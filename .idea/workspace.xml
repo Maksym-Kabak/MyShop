@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1aac19-42fe-48ba-afb0-2528dec2b30b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uploads/image-1612263372389.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/productModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +57,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyShop\backend\data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyShop\frontend\src" />
       <recent name="D:\MyShop\frontend\public\images" />
       <recent name="D:\MyShop" />
       <recent name="D:\MyShop\frontend\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyShop\backend\data" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -121,7 +121,7 @@
       <workItem from="1612020374762" duration="4839000" />
       <workItem from="1612194369628" duration="5133000" />
       <workItem from="1612252279169" duration="6132000" />
-      <workItem from="1612258833918" duration="7980000" />
+      <workItem from="1612258833918" duration="11336000" />
     </task>
     <servers />
   </component>
@@ -160,10 +160,10 @@
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="-1388" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1612259222692" />
-    <state x="-1421" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610981376738">
+    <state x="-1421" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612267655806">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state x="-1421" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1610981376738" />
+    <state x="-1421" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1612267655806" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611691616653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
