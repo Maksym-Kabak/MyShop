@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c1aac19-42fe-48ba-afb0-2528dec2b30b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/product.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/product.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <workItem from="1612020374762" duration="4839000" />
       <workItem from="1612194369628" duration="5133000" />
       <workItem from="1612252279169" duration="6132000" />
-      <workItem from="1612258833918" duration="11336000" />
+      <workItem from="1612258833918" duration="14373000" />
     </task>
     <servers />
   </component>
