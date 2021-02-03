@@ -44,10 +44,10 @@ const RegisterScreen = ({ location, history }) => {
         { loading && <Loader/> }
         <Form onSubmit={ submitHandler }>
             <Form.Group controlId='name'>
-                <Form.Label>Name</Form.Label>
+                <Form.Label>Ім'я</Form.Label>
                 <Form.Control
                     type='name'
-                    pleceholder='Enter name'
+                    pleceholder='Введіть імя'
                     value={ name }
                     onChange={ (event) => setName(event.target.value) }
                 >
@@ -55,10 +55,10 @@ const RegisterScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='email'>
-                <Form.Label>Email Address</Form.Label>
+                <Form.Label>Електронна адреса</Form.Label>
                 <Form.Control
                     type='email'
-                    pleceholder='Enter email'
+                    pleceholder='Введіть електронну адресу'
                     value={ email }
                     onChange={ (event) => setEmail(event.target.value) }
                 >
@@ -66,10 +66,10 @@ const RegisterScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='password'>
-                <Form.Label>Password</Form.Label>
+                <Form.Label>Пароль</Form.Label>
                 <Form.Control
                     type='password'
-                    pleceholder='Enter password'
+                    pleceholder='Введіть пароль'
                     value={ password }
                     onChange={ (event) => setPassword(event.target.value) }
                 >
@@ -77,10 +77,10 @@ const RegisterScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='confirmPassword'>
-                <Form.Label>Confirm Password</Form.Label>
+                <Form.Label>Підтвердьте пароль</Form.Label>
                 <Form.Control
                     type='password'
-                    pleceholder='Confirm password'
+                    pleceholder='Підтвердьте пароль'
                     value={ confirmPassword }
                     onChange={ (event) => setConfirmPassword(event.target.value) }
                 >
@@ -92,7 +92,7 @@ const RegisterScreen = ({ location, history }) => {
 
         <Row className='py-3'>
             <Col>
-                Have an Account? <Link to={ redirect ? `/login?redirect=${ redirect }` : '/register' }>Login</Link>
+                Вже маєте акаунт? <Link to={ redirect ? `/login?redirect=${ redirect }` : '/register' }>Логін</Link>
             </Col>
         </Row>
     </FormContainer>

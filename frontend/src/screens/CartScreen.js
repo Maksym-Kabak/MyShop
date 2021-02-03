@@ -34,7 +34,7 @@ const CartScreen = ({ match, location, history }) => {
             <Col md={ 8 }>
                 <h1>Shopping Cart</h1>
                 { cartItems.length === 0 ? (
-                    <Message>Your cart is empty <Link to='/'>Go Back</Link></Message>
+                    <Message>Ваш кошик порожній <Link to='/'>Повернутись назад</Link></Message>
                 ) : (
                     <ListGroup variant='flush'>
                         { cartItems.map(item => (
@@ -86,7 +86,7 @@ const CartScreen = ({ match, location, history }) => {
                                 disabled={ cartItems.length === 0 }
                                 onClick={ checkoutHandler }
                             >
-                                Proceed To Checkout
+                                Перейдіть до оплати
                             </Button>
                         </ListGroup.Item>
                     </ListGroup>

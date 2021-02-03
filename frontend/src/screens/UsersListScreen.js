@@ -36,16 +36,16 @@ const UsersListScreen = ({ history }) => {
 
   return (
     <>
-      <h1>Users</h1>
+      <h1>Користувачі</h1>
       { loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> :
         (
           <Table striped bordered hover responsive className='table-sm'>
             <thead>
             <tr>
               <th>ID</th>
-              <th>NAME</th>
-              <th>EMAIL</th>
-              <th>ADMIN</th>
+              <th>НАЗВА</th>
+              <th>Електронна пошта</th>
+              <th>АДМІНІСТРАТОР</th>
             </tr>
             </thead>
             <tbody>

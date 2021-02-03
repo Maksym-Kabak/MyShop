@@ -25,13 +25,13 @@ const ShippingScreen = ({ history }) => {
 
     return <FormContainer>
         <CheckoutSteps step1 step2/>
-        <h1>Shipping</h1>
+        <h1>Доставка</h1>
         <Form onSubmit={ submitHandler }>
             <Form.Group controlId='address'>
-                <Form.Label>Address</Form.Label>
+                <Form.Label>Адреса</Form.Label>
                 <Form.Control
                     type='text'
-                    pleceholder='Enter address'
+                    pleceholder='Введіть адресу'
                     value={ address }
                     required
                     onChange={ (event) => setAddress(event.target.value) }
@@ -40,10 +40,10 @@ const ShippingScreen = ({ history }) => {
             </Form.Group>
 
             <Form.Group controlId='city'>
-                <Form.Label>City</Form.Label>
+                <Form.Label>Місто</Form.Label>
                 <Form.Control
                     type='text'
-                    pleceholder='Enter city'
+                    pleceholder='Введіть місто'
                     value={ city }
                     required
                     onChange={ (event) => setCity(event.target.value) }
@@ -52,10 +52,10 @@ const ShippingScreen = ({ history }) => {
             </Form.Group>
 
             <Form.Group controlId='postalCode'>
-                <Form.Label>Postal Code</Form.Label>
+                <Form.Label>Поштовий індекс</Form.Label>
                 <Form.Control
                     type='text'
-                    pleceholder='Enter postal code'
+                    pleceholder='Введіть поштовий індекс'
                     value={ postalCode }
                     required
                     onChange={ (event) => setPostalCode(event.target.value) }
@@ -64,10 +64,10 @@ const ShippingScreen = ({ history }) => {
             </Form.Group>
 
             <Form.Group controlId='country'>
-                <Form.Label>Country</Form.Label>
+                <Form.Label>Країна</Form.Label>
                 <Form.Control
                     type='text'
-                    pleceholder='Enter country'
+                    pleceholder='Введіть країну'
                     value={ country }
                     required
                     onChange={ (event) => setCountry(event.target.value) }
@@ -75,7 +75,7 @@ const ShippingScreen = ({ history }) => {
                 </Form.Control>
             </Form.Group>
 
-            <Button type='submit' variant='primary'>Continue</Button>
+            <Button type='submit' variant='primary'>Продовжити</Button>
         </Form>
     </FormContainer>;
 

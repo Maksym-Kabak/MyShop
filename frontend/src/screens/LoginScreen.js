@@ -36,10 +36,10 @@ const LoginScreen = ({ location, history }) => {
         { loading && <Loader/> }
         <Form onSubmit={ submitHandler }>
             <Form.Group controlId='email'>
-                <Form.Label>Email Address</Form.Label>
+                <Form.Label>Електронна адреса</Form.Label>
                 <Form.Control
                     type='email'
-                    pleceholder='Enter email'
+                    pleceholder='Введіть електронну адресу'
                     value={ email }
                     onChange={ (event) => setEmail(event.target.value) }
                 >
@@ -47,10 +47,10 @@ const LoginScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='password'>
-                <Form.Label>Password</Form.Label>
+                <Form.Label>Пароль</Form.Label>
                 <Form.Control
                     type='password'
-                    pleceholder='Enter password'
+                    pleceholder='Введіть пароль'
                     value={ password }
                     onChange={ (event) => setPassword(event.target.value) }
                 >

@@ -62,10 +62,10 @@ const ProfileScreen = ({ history }) => {
             { loading && <Loader/> }
             <Form onSubmit={ submitHandler }>
                 <Form.Group controlId='name'>
-                    <Form.Label>Name</Form.Label>
+                    <Form.Label>Ім'я</Form.Label>
                     <Form.Control
                         type='name'
-                        pleceholder='Enter name'
+                        pleceholder='Введіть ім/''я'
                         value={ name }
                         onChange={ (event) => setName(event.target.value) }
                     >
@@ -73,10 +73,10 @@ const ProfileScreen = ({ history }) => {
                 </Form.Group>
 
                 <Form.Group controlId='email'>
-                    <Form.Label>Email Address</Form.Label>
+                    <Form.Label>Електронна адреса</Form.Label>
                     <Form.Control
                         type='email'
-                        pleceholder='Enter email'
+                        pleceholder='Введіть електронну адресу'
                         value={ email }
                         onChange={ (event) => setEmail(event.target.value) }
                     >
@@ -84,10 +84,10 @@ const ProfileScreen = ({ history }) => {
                 </Form.Group>
 
                 <Form.Group controlId='password'>
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label>Пароль</Form.Label>
                     <Form.Control
                         type='password'
-                        pleceholder='Enter password'
+                        pleceholder='Введіть пароль'
                         value={ password }
                         onChange={ (event) => setPassword(event.target.value) }
                     >
@@ -95,10 +95,10 @@ const ProfileScreen = ({ history }) => {
                 </Form.Group>
 
                 <Form.Group controlId='confirmPassword'>
-                    <Form.Label>Confirm Password</Form.Label>
+                    <Form.Label>Підтвердьте пароль</Form.Label>
                     <Form.Control
                         type='password'
-                        pleceholder='Confirm password'
+                        pleceholder='Підтвердьте пароль'
                         value={ confirmPassword }
                         onChange={ (event) => setConfirmPassword(event.target.value) }
                     >
@@ -109,16 +109,16 @@ const ProfileScreen = ({ history }) => {
             </Form>
         </Col>
         <Col md={ 9 }>
-            <h2>My Orders</h2>
+            <h2>Мої замовлення</h2>
             { loadingOrders ? <Loader/> : errorOrders ? <Message variant='danger'>{ errorOrders }</Message> : (
                 <Table striped bordered hover responsive className='table-sm'>
                     <thead>
                     <tr>
                         <th>ID</th>
-                        <th>DATE</th>
-                        <th>TOTAL</th>
-                        <th>PAID</th>
-                        <th>DELIVERED</th>
+                        <th>ДАТА</th>
+                        <th>ВСЬОГО</th>
+                        <th>ОПЛАТЕНО</th>
+                        <th>ДОСТАВЛЕНО</th>
                         <th></th>
                     </tr>
                     </thead>
@@ -145,7 +145,7 @@ const ProfileScreen = ({ history }) => {
                             <td>
                                 <LinkContainer to={`/order/${order._id}`}>
                                     <Button className='btn-sm' variant='dark'>
-                                        Details
+                                        Деталі
                                     </Button>
                                 </LinkContainer>
                             </td>

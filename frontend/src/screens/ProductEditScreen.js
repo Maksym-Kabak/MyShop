@@ -89,11 +89,11 @@ const ProductEditScreen = ({ match, history }) => {
 
   return <>
     <Link to={ `/admin/productlist` } className='btn btn-light my-3'>
-      Go Back
+      Повернутись назад
     </Link>
 
     <FormContainer>
-      <h1>Edit Product</h1>
+      <h1>Редагувати продукт</h1>
       { loadingUpdate && <Loader/> }
       { errorUpdate && <Message variant='danger'>{ errorUpdate }</Message> }
       { loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> :
@@ -111,10 +111,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='price'>
-              <Form.Label>Price</Form.Label>
+              <Form.Label>Ціна</Form.Label>
               <Form.Control
                 type='number'
-                pleceholder='Enter price'
+                pleceholder='Введіть ціну'
                 value={ price }
                 onChange={ (event) => setPrice(event.target.value) }
               >
@@ -122,10 +122,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='image'>
-              <Form.Label>Image</Form.Label>
+              <Form.Label>Зображення</Form.Label>
               <Form.Control
                 type='text'
-                pleceholder='Enter image url'
+                pleceholder='Введіть URL-адресу зображення'
                 value={ image }
                 onChange={ (event) => setImage(event.target.value) }
               >
@@ -136,10 +136,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='brand'>
-              <Form.Label>Brand</Form.Label>
+              <Form.Label>Бренд</Form.Label>
               <Form.Control
                 type='text'
-                pleceholder='Enter brand'
+                pleceholder='Введіть бренд'
                 value={ brand }
                 onChange={ (event) => setBrand(event.target.value) }
               >
@@ -147,10 +147,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='countInStock'>
-              <Form.Label>Count in Stock</Form.Label>
+              <Form.Label>Кількість на слладі</Form.Label>
               <Form.Control
                 type='number'
-                pleceholder='Enter countInStock'
+                pleceholder='Введіть кількість на слладі'
                 value={ countInStock }
                 onChange={ (event) => setCountInStock(event.target.value) }
               >
@@ -158,10 +158,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='category'>
-              <Form.Label>Category</Form.Label>
+              <Form.Label>Категорія</Form.Label>
               <Form.Control
                 type='text'
-                pleceholder='Enter category'
+                pleceholder='Введіть категорію'
                 value={ category }
                 onChange={ (event) => setCategory(event.target.value) }
               >
@@ -169,10 +169,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='description'>
-              <Form.Label>Description</Form.Label>
+              <Form.Label>Опис</Form.Label>
               <Form.Control
-                type='text'
-                pleceholder='Enter description'
+                type='textarea'
+                pleceholder='Введіть опис'
                 value={ description }
                 onChange={ (event) => setDescription(event.target.value) }
               >

@@ -12,9 +12,9 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To MyShop',
-  keywords: 'electronics,by electronics, cheap electronics',
-  description: 'We sell the best product for cheap'
+  title: 'Ласкаво просимо до MyShop',
+  keywords: 'Топи, трусики , бюсти, піжамки в Instagram_ «Шикарний чорний 💣💣💣💣 ✔️ бюст без паролону на чашку В ✔️ ззаду на одну застібку ✔️ трусики висока посадка ✔️ розмір М_L У ньому ви точно…»',
+  description: 'Ми продаємо найкращий товар дешево'
 };
 
 export default Meta;

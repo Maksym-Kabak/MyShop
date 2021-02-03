@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1aac19-42fe-48ba-afb0-2528dec2b30b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/airpods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/alexa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/camera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/mouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/images/playstation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CheckoutSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CheckoutSteps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/SearchBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/SearchBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/LoginScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/RegisterScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/RegisterScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UserEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UserEditScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1611936842336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612263372389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612265839655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612265936339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612265944796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612265954044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/image-1612265962917.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +91,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyShop\frontend\src" />
-      <recent name="D:\MyShop\frontend\public\images" />
-      <recent name="D:\MyShop" />
-      <recent name="D:\MyShop\frontend\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyShop\backend\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyShop\frontend\public\images" />
+      <recent name="D:\MyShop\frontend\src" />
+      <recent name="D:\MyShop" />
+      <recent name="D:\MyShop\frontend\public" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -114,6 +156,7 @@
       <workItem from="1612194369628" duration="5133000" />
       <workItem from="1612252279169" duration="6132000" />
       <workItem from="1612258833918" duration="16120000" />
+      <workItem from="1612351449944" duration="7638000" />
     </task>
     <servers />
   </component>

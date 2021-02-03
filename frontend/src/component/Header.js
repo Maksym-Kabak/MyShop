@@ -33,27 +33,27 @@ const Header = () => {
               { userInfo ? (
                 <NavDropdown title={ userInfo.name } id='username'>
                   <LinkContainer to='/profile'>
-                    <NavDropdown.Item>Profile</NavDropdown.Item>
+                    <NavDropdown.Item>Профіль</NavDropdown.Item>
                   </LinkContainer>
                   <NavDropdown.Item onClick={ logoutHandler }>
-                    Logout
+                    Вийти
                   </NavDropdown.Item>
                 </NavDropdown>
               ) : (
                 <LinkContainer to='/login'>
-                  <Nav.Link><i className='fas fa-user'></i> Sign In</Nav.Link>
+                  <Nav.Link><i className='fas fa-user'></i> Увійти</Nav.Link>
                 </LinkContainer>
               ) }
               { userInfo && userInfo.isAdmin && (
                 <NavDropdown title='Admin' id='adminmenu'>
                   <LinkContainer to='/admin/userlist'>
-                    <NavDropdown.Item>Users</NavDropdown.Item>
+                    <NavDropdown.Item>Користувачі</NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to='/admin/productlist'>
-                    <NavDropdown.Item>Products</NavDropdown.Item>
+                    <NavDropdown.Item>Продукти</NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to='/admin/orderlist'>
-                    <NavDropdown.Item>Orders</NavDropdown.Item>
+                    <NavDropdown.Item>Замовлення</NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
               ) }

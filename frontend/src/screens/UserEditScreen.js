@@ -47,21 +47,21 @@ const UserEditScreen = ({ match, history }) => {
 
   return <>
     <Link to={ `/admin/userlist` } className='btn btn-light my-3'>
-      Go Back
+      Повернутись назад
     </Link>
 
     <FormContainer>
-      <h1>Edit User</h1>
+      <h1>Редагувати користувача</h1>
       { loadingUpdate && <Loader/> }
       { errorUpdate && <Message variant='danger'>{ errorUpdate }</Message> }
       { loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> :
         (
           <Form onSubmit={ submitHandler }>
             <Form.Group controlId='name'>
-              <Form.Label>Name</Form.Label>
+              <Form.Label>Ім'я</Form.Label>
               <Form.Control
                 type='name'
-                pleceholder='Enter name'
+                pleceholder='Введіть імя'
                 value={ name }
                 onChange={ (event) => setName(event.target.value) }
               >
@@ -69,10 +69,10 @@ const UserEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='email'>
-              <Form.Label>Email Address</Form.Label>
+              <Form.Label>Електронна адреса</Form.Label>
               <Form.Control
                 type='email'
-                pleceholder='Enter email'
+                pleceholder='Введіть електронну адресу'
                 value={ email }
                 onChange={ (event) => setEmail(event.target.value) }
               >
@@ -82,7 +82,7 @@ const UserEditScreen = ({ match, history }) => {
             <Form.Group controlId='isadmin'>
               <Form.Check
                 type='checkbox'
-                label='Is Admin'
+                label='Є адміністратором'
                 checked={ isAdmin }
                 onChange={ (event) => setIsAdmin(event.target.checked) }
               >
@@ -98,6 +98,4 @@ const UserEditScreen = ({ match, history }) => {
 };
 
 export default UserEditScreen;
-;
-;
 
