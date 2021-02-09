@@ -27,7 +27,7 @@ const HomeScreen = ({ match }) => {
   return (
     <>
       <Meta/>
-      { !keyword ? <ProductCarousel/> : <Link to='/' className='btn btn-light'>Go Back</Link> }
+      { !keyword ? <ProductCarousel/> : <Link to='/' className='btn btn-light'>Повернутись назад</Link> }
       <h1>Найновіші продукти</h1>
       { loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> : (
         <>

@@ -36,48 +36,56 @@ const UsersListScreen = ({ history }) => {
 
   return (
     <>
-      <h1>Користувачі</h1>
-      { loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> :
-        (
-          <Table striped bordered hover responsive className='table-sm'>
-            <thead>
-            <tr>
-              <th>ID</th>
-              <th>НАЗВА</th>
-              <th>Електронна пошта</th>
-              <th>АДМІНІСТРАТОР</th>
-            </tr>
-            </thead>
-            <tbody>
-            { users.map(user => (
-              <tr key={ user._id }>
-                <td>{ user.name }</td>
-                <td>
-                  <a href={ `mailto:${ user.email }` }>{ user.email }</a>
-                </td>
-                <td>
-                  { user.isAdmin ? (
-                    <i className='fa fa-check' style={ { color: 'green' } }></i>
-                  ) : (
-                    <i className='fas fa-times' style={ { color: 'red' } }></i>
-                  ) }
-                </td>
-                <td>
-                  <LinkContainer to={ `/admin/user/${ user._id }/edit` }>
-                    <Button variant='light' className='btn-sm ml-2'>
-                      <i className='fas fa-edit'></i>
-                    </Button>
-                  </LinkContainer>
-                  <Button variant='danger' className='btn-sm ml-2'
-                          onClick={ () => deleteHandler(user._id) }>
-                    <i className='fas fa-trash'></i>
+      <h1>Users</h1>
+      { loading ? (
+        <Loader/>
+      ) : error ? (
+        <Message variant='danger'>{ error }</Message>
+      ) : (
+        <Table striped bordered hover responsive className='table-sm'>
+          <thead>
+          <tr>
+            <th>ID</th>
+            <th>Ім'я</th>
+            <th>УЛУКТРОНИЙ АДРЕС</th>
+            <th>АДМІНІСТРАТОР</th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          { users.map((user) => (
+            <tr key={ user._id }>
+              <td>{ user._id }</td>
+              <td>{ user.name }</td>
+              <td>
+                <a href={ `mailto:${ user.email }` }>{ user.email }</a>
+              </td>
+              <td>
+                { user.isAdmin ? (
+                  <i className='fas fa-check' style={ { color: 'green' } }></i>
+                ) : (
+                  <i className='fas fa-times' style={ { color: 'red' } }></i>
+                ) }
+              </td>
+              <td>
+                <LinkContainer to={ `/admin/user/${ user._id }/edit` }>
+                  <Button variant='light' className='btn-sm'>
+                    <i className='fas fa-edit'></i>
                   </Button>
-                </td>
-              </tr>
-            )) }
-            </tbody>
-          </Table>
-        ) }
+                </LinkContainer>
+                <Button
+                  variant='danger'
+                  className='btn-sm'
+                  onClick={ () => deleteHandler(user._id) }
+                >
+                  <i className='fas fa-trash'></i>
+                </Button>
+              </td>
+            </tr>
+          )) }
+          </tbody>
+        </Table>
+      ) }
     </>
   );
 };

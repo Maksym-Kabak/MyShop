@@ -50,8 +50,7 @@ const RegisterScreen = ({ location, history }) => {
                     pleceholder='Введіть імя'
                     value={ name }
                     onChange={ (event) => setName(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='email'>
@@ -61,8 +60,7 @@ const RegisterScreen = ({ location, history }) => {
                     pleceholder='Введіть електронну адресу'
                     value={ email }
                     onChange={ (event) => setEmail(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='password'>
@@ -72,8 +70,7 @@ const RegisterScreen = ({ location, history }) => {
                     pleceholder='Введіть пароль'
                     value={ password }
                     onChange={ (event) => setPassword(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='confirmPassword'>
@@ -83,10 +80,8 @@ const RegisterScreen = ({ location, history }) => {
                     pleceholder='Підтвердьте пароль'
                     value={ confirmPassword }
                     onChange={ (event) => setConfirmPassword(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
-
             <Button type='submit' variant='primary'>Register</Button>
         </Form>
 

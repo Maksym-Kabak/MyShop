@@ -65,7 +65,7 @@ const ProfileScreen = ({ history }) => {
                     <Form.Label>Ім'я</Form.Label>
                     <Form.Control
                         type='name'
-                        pleceholder='Введіть ім/''я'
+                        pleceholder='Введіть імя'
                         value={ name }
                         onChange={ (event) => setName(event.target.value) }
                     >
@@ -79,8 +79,7 @@ const ProfileScreen = ({ history }) => {
                         pleceholder='Введіть електронну адресу'
                         value={ email }
                         onChange={ (event) => setEmail(event.target.value) }
-                    >
-                    </Form.Control>
+                    ></Form.Control>
                 </Form.Group>
 
                 <Form.Group controlId='password'>
@@ -90,8 +89,7 @@ const ProfileScreen = ({ history }) => {
                         pleceholder='Введіть пароль'
                         value={ password }
                         onChange={ (event) => setPassword(event.target.value) }
-                    >
-                    </Form.Control>
+                    ></Form.Control>
                 </Form.Group>
 
                 <Form.Group controlId='confirmPassword'>
@@ -101,8 +99,7 @@ const ProfileScreen = ({ history }) => {
                         pleceholder='Підтвердьте пароль'
                         value={ confirmPassword }
                         onChange={ (event) => setConfirmPassword(event.target.value) }
-                    >
-                    </Form.Control>
+                    ></Form.Control>
                 </Form.Group>
 
                 <Button type='submit' variant='primary'>Update</Button>

@@ -64,8 +64,7 @@ const UserEditScreen = ({ match, history }) => {
                 pleceholder='Введіть імя'
                 value={ name }
                 onChange={ (event) => setName(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='email'>
@@ -75,8 +74,7 @@ const UserEditScreen = ({ match, history }) => {
                 pleceholder='Введіть електронну адресу'
                 value={ email }
                 onChange={ (event) => setEmail(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='isadmin'>
@@ -85,10 +83,8 @@ const UserEditScreen = ({ match, history }) => {
                 label='Є адміністратором'
                 checked={ isAdmin }
                 onChange={ (event) => setIsAdmin(event.target.checked) }
-              >
-              </Form.Check>
+              ></Form.Check>
             </Form.Group>
-
             <Button type='submit' variant='primary'>Update</Button>
           </Form>
         ) }

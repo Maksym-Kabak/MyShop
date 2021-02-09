@@ -55,7 +55,7 @@ const PlaceOrderScreen = ({ history }) => {
             <ListGroup.Item>
               <h2>Доставка</h2>
               <p>
-                <strong>Адреса:</strong>
+                <strong>Адреса: </strong>
                 { cart.shippingAddress.address }, { cart.shippingAddress.city },
                 { cart.shippingAddress.postalCode }, { cart.shippingAddress.country }
               </p>
@@ -63,7 +63,7 @@ const PlaceOrderScreen = ({ history }) => {
 
             <ListGroup.Item>
               <h2>Спосіб оплати</h2>
-              <strong>Метод:</strong>
+              <strong>Метод: </strong>
               { cart.paymentMethod }
             </ListGroup.Item>
 

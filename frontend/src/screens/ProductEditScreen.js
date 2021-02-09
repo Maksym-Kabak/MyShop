@@ -106,8 +106,7 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Enter name'
                 value={ name }
                 onChange={ (event) => setName(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='price'>
@@ -117,8 +116,7 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Введіть ціну'
                 value={ price }
                 onChange={ (event) => setPrice(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='image'>
@@ -128,8 +126,7 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Введіть URL-адресу зображення'
                 value={ image }
                 onChange={ (event) => setImage(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
               <Form.File id='image-file' label='Choose File' custom onChange={ uploadFileHandler }>
                 { uploading && <Loader/> }
               </Form.File>
@@ -142,8 +139,7 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Введіть бренд'
                 value={ brand }
                 onChange={ (event) => setBrand(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='countInStock'>
@@ -153,8 +149,7 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Введіть кількість на слладі'
                 value={ countInStock }
                 onChange={ (event) => setCountInStock(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='category'>
@@ -164,25 +159,21 @@ const ProductEditScreen = ({ match, history }) => {
                 pleceholder='Введіть категорію'
                 value={ category }
                 onChange={ (event) => setCategory(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='description'>
               <Form.Label>Опис</Form.Label>
               <Form.Control
-                type='textarea'
+                type='text'
                 pleceholder='Введіть опис'
                 value={ description }
                 onChange={ (event) => setDescription(event.target.value) }
-              >
-              </Form.Control>
+              ></Form.Control>
             </Form.Group>
-
             <Button type='submit' variant='primary'>Update</Button>
           </Form>
         ) }
-
     </FormContainer>;
   </>;
 };

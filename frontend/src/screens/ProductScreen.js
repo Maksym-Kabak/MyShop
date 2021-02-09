@@ -87,7 +87,7 @@ const ProductScreen = ({ history, match }) => {
                 </ListGroup.Item>
                 <ListGroup.Item>Ціна: { product.price } ₴</ListGroup.Item>
                 <ListGroup.Item>
-                  Опис:
+                  <h5>Опис: </h5>
                   { product.description }
                 </ListGroup.Item>
               </ListGroup>
@@ -122,15 +122,13 @@ const ProductScreen = ({ history, match }) => {
                             as='select'
                             value={ qty }
                             onChange={ (e) => setQty(e.target.value) }
-                          >
-                            { [...Array(product.countInStock).keys()].map(
-                              (x) => (
-                                <option key={ x + 1 } value={ x + 1 }>
-                                  { x + 1 }
-                                </option>
-                              )
-                            ) }
-                          </Form.Control>
+                          >{ [...Array(product.countInStock).keys()].map(
+                            (x) => (
+                              <option key={ x + 1 } value={ x + 1 }>
+                                { x + 1 }
+                              </option>
+                            )
+                          ) }</Form.Control>
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -200,7 +198,7 @@ const ProductScreen = ({ history, match }) => {
                         type='submit'
                         variant='primary'
                       >
-                       Написати
+                        Написати
                       </Button>
                     </Form>
                   ) : (

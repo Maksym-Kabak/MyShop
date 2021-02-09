@@ -42,8 +42,7 @@ const LoginScreen = ({ location, history }) => {
                     pleceholder='Введіть електронну адресу'
                     value={ email }
                     onChange={ (event) => setEmail(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
 
             <Form.Group controlId='password'>
@@ -53,8 +52,7 @@ const LoginScreen = ({ location, history }) => {
                     pleceholder='Введіть пароль'
                     value={ password }
                     onChange={ (event) => setPassword(event.target.value) }
-                >
-                </Form.Control>
+                ></Form.Control>
             </Form.Group>
             <Button type='submit' variant='primary'> Sign In</Button>
         </Form>

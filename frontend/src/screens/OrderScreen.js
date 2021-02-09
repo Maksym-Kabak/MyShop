@@ -75,21 +75,21 @@ const OrderScreen = ({ match, history }) => {
   };
 
   return loading ? <Loader/> : error ? <Message variant='danger'>{ error }</Message> : <>
-    <h1>Замовлення { order._id }</h1>
+    <h1>Замовлення № { order._id }</h1>
     <Row>
       <Col md={ 8 }>
         <ListGroup variant='flush'>
           <ListGroup.Item>
-            <h2>Shipping</h2>
+            <h2>Доставка</h2>
             <p><strong>Ім'я:</strong> { order.user.name }</p>
             <p>
               <strong>Електронна пошта: </strong>
               <a href={ `mailto:${ order.user.email }` }>{ order.user.email }</a>
             </p>
             <p>
-              <strong>Адреса:</strong>
-              { order.shippingAddress.address }, { order.shippingAddress.city },
-              { order.shippingAddress.postalCode }, { order.shippingAddress.country }
+              <strong>Адреса: </strong>
+               { order.shippingAddress.address }, { order.shippingAddress.city },
+               { order.shippingAddress.postalCode }, { order.shippingAddress.country }
             </p>
             { order.isDelivered ?
               <Message variant='success'> Відправлено { order.deliveredAt.substring(0, 10) }</Message> :
@@ -101,7 +101,7 @@ const OrderScreen = ({ match, history }) => {
           <ListGroup.Item>
             <h2>Спосіб оплати</h2>
             <p>
-              <strong>Метод:</strong>
+              <strong>Метод: </strong>
               { order.paymentMethod }
             </p>
             { order.isPaid ? <Message variant='success'> Оплачено { order.paidAt.substring(0, 10) }</Message> :
@@ -111,7 +111,7 @@ const OrderScreen = ({ match, history }) => {
           </ListGroup.Item>
 
           <ListGroup.Item>
-            <h2>Order Items</h2>
+            <h2>Елементи замовлення</h2>
             { order.orderItems.length === 0 ? <Message>Замовлення порожнє</Message> :
               (<ListGroup variant='flush'>
                 { order.orderItems.map((item, index) => (
