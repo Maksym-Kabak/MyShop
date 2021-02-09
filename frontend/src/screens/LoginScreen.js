@@ -31,7 +31,7 @@ const LoginScreen = ({ location, history }) => {
 
 
     return <FormContainer>
-        <h1>Sign In</h1>
+        <h1>Логін</h1>
         { error && <Message variant='danger'>{ error }</Message> }
         { loading && <Loader/> }
         <Form onSubmit={ submitHandler }>
@@ -54,12 +54,12 @@ const LoginScreen = ({ location, history }) => {
                     onChange={ (event) => setPassword(event.target.value) }
                 ></Form.Control>
             </Form.Group>
-            <Button type='submit' variant='primary'> Sign In</Button>
+            <Button type='submit' variant='primary'> Логін </Button>
         </Form>
 
         <Row className='py-3'>
             <Col>
-                New Customer? <Link to={ redirect ? `/register?redirect=${ redirect }` : '/register' }>Register</Link>
+                Новий клієнт? <Link to={ redirect ? `/register?redirect=${ redirect }` : '/register' }>Зареєструйтесь</Link>
             </Col>
         </Row>
     </FormContainer>;
