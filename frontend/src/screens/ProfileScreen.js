@@ -55,10 +55,10 @@ const ProfileScreen = ({ history }) => {
 
     return <Row>
         <Col md={ 3 }>
-            <h2>User Profile</h2>
+            <h2>Профіль користувача</h2>
             { message && <Message variant='danger'>{ message }</Message> }
             { error && <Message variant='danger'>{ error }</Message> }
-            { success && <Message variant='success'>Profile Updated</Message> }
+            { success && <Message variant='success'>Профіль оновлено</Message> }
             { loading && <Loader/> }
             <Form onSubmit={ submitHandler }>
                 <Form.Group controlId='name'>
@@ -102,7 +102,7 @@ const ProfileScreen = ({ history }) => {
                     ></Form.Control>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>Update</Button>
+                <Button type='submit' variant='primary'>Оновити</Button>
             </Form>
         </Col>
         <Col md={ 9 }>
