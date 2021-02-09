@@ -176,7 +176,7 @@ const ProductScreen = ({ history, match }) => {
                           value={ rating }
                           onChange={ (e) => setRating(e.target.value) }
                         >
-                          <option value=''>Select...</option>
+                          <option value=''>Виберіть ...</option>
                           <option value='1'>1 - Жалюгідний</option>
                           <option value='2'>2 - Досить добрий</option>
                           <option value='3'>3 - Добре</option>
@@ -203,7 +203,7 @@ const ProductScreen = ({ history, match }) => {
                     </Form>
                   ) : (
                     <Message>
-                      Будь ласка<Link to='/login'>Увійдіть</Link>щоб написати відгук{ ' ' }
+                      Будь ласка <Link to='/login'>Увійдіть</Link> щоб написати відгук{ ' ' }
                     </Message>
                   ) }
                 </ListGroup.Item>

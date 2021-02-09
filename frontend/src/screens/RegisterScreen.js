@@ -38,7 +38,7 @@ const RegisterScreen = ({ location, history }) => {
 
 
     return <FormContainer>
-        <h1>Sign Up</h1>
+        <h1>Зареєструйтесь</h1>
         { message && <Message variant='danger'>{ message }</Message> }
         { error && <Message variant='danger'>{ error }</Message> }
         { loading && <Loader/> }
@@ -82,7 +82,7 @@ const RegisterScreen = ({ location, history }) => {
                     onChange={ (event) => setConfirmPassword(event.target.value) }
                 ></Form.Control>
             </Form.Group>
-            <Button type='submit' variant='primary'>Register</Button>
+            <Button type='submit' variant='primary'>Зареєструйтесь</Button>
         </Form>
 
         <Row className='py-3'>
