@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c1aac19-42fe-48ba-afb0-2528dec2b30b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UsersListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/product.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/product.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +45,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyShop\backend\data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyShop\frontend\public" />
       <recent name="D:\MyShop\frontend\public\images" />
       <recent name="D:\MyShop\frontend\src" />
       <recent name="D:\MyShop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyShop\frontend\public" />
+      <recent name="D:\MyShop\backend\data" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -120,6 +122,7 @@
       <workItem from="1612865195494" duration="2000" />
       <workItem from="1612890857902" duration="4518000" />
       <workItem from="1612904003416" duration="1066000" />
+      <workItem from="1612961136727" duration="670000" />
     </task>
     <servers />
   </component>
